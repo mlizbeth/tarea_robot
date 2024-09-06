@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.caja-prin{
+    display: flex;
+    justify-content: center;
+
+}
+.antebrazo{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    margin-top: 50px;
+
+
+}
+.robot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabeza {
+    width: 110px;
+    height: 90px;
+    background-color: #be6018;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ojo {
+    width: 23px;
+    height: 23px;
+    background-color: #6112b0;
+    position: absolute;
+    top: 25px;
+}
+
+.izq {
+    left: 20px; 
+}
+
+.dere {
+    right: 20px; 
+}
+
+.boca {
+    width: 40px;
+    height: 2px;
+    background-color: #6112b0;
+    margin-top: 10px;
+    position: absolute;
+    top: 65px;
+}
+.nariz {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 48px; 
+    z-index: 1;
+}
+.orej{
+    width:20px ;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:chartreuse ;
+}
+.orej.iz{
+    left: -20px;
+}
+.orej.de{
+    right: -20px;
+}
+.antena{
+    width: 3px;
+    height: 30px;
+    background-color: #1820be;
+    position: absolute;
+    top: -30px;
+}
+.orej.anten{
+    top: -40px;
+}
+.cuello{
+    width: 30px;
+    height: 20px;
+    background-color: #be6018;
+    display: flex;
+}
+.cuerpo {
+    width: 80px;
+    height: 120px;
+    background-color: #be6018;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+.verde{
+    width: 90px;
+    height: 20px;
+    background-color: chartreuse;
+    top: 20px;
+    margin: 5px;
+}
+.arri.verde{
+    top: 10px;
+    height: 30px;
+}
+.abaj.verde{
+    top: 60px;
+}
+.medio{
+    
+    display: flex;
+    align-items: center;
+}
+.cabeza2{
+    width: 110px;
+    height: 90px;
+    background-color: #be6018;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.manosI{
+    background-color: rgb(18, 8, 152);
+    display: flex;
+    width: 100px;
+    height: 5px;
+    transform: rotate(-160deg);
+    border-radius: 5px;
+    right: -20px;
+    top: -5px;
+}
+.manosD{
+    background-color: rgb(18, 8, 152);
+    border-radius: 5px;
+    height: 5px;
+    width: 100px;
+    right: -10px;
+    top: 75px;
+    transform: rotate(160deg);
+}
+.cadera{
+    width: 80px;
+    height: 10px;
+    background-color: #be6018;
+}
+.abajo{
+    width: 150px;
+    height: 70px;
+    background-color: #be6018;
+    display: flex;
+    position :relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.verde.izqu{
+    width: 30px;
+    height: 60px;
+}
+.verde.central{
+    width: 30px;
+    height: 60px;
+}
+.verde.deb{
+    width: 30px;
+    height: 60px;
+}
+
